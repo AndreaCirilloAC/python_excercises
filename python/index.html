@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+    body{
+        background-color : powderblue;
+        }
+    p{
+        color:darkblue;
+        }
+        .p-with-class{color:blue}
+        #p-with-id{color:red}
+    </style>
+</head>
+    <body>
+      <div>
+          <p id = "p-with-id" class = "p-with-class" onclick="printMessage();">
+              BIG DIVE LESSON
+          </p>
+        </div>
+        <script>
+            console.log("my first script ever");
+            console.log(document.getElementById("p-with-id").textContent);.
+            console.log(document.getElementById("p-with-id"));
+        </script>
+    </body>
+</html>
